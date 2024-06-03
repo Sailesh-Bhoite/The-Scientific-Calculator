@@ -186,17 +186,17 @@ def equal_press():
             ans.insert(0, eval(equation))
         except SyntaxError as e:
             if "leading zeros" in str(e):
-                ans.insert(0, "सीधा सीधा अंक डालो ना, काहे अंक से पहले शून्य डाल रहे हो?")
+                ans.insert(0, "Please don't enter zeros before numbers(e.g. enter 9 instead of 09).")
             elif "was never closed" in str(e):
-                ans.insert(0, "तनिक ब्रैकेट तो कम्पलीट करलो बिटवा|")
+                ans.insert(0, "There are some unclosed brackets.")
             elif "invalid decimal" in str(e):
                 ans.insert(0, "I think you've written the wrong equation !!!")
         except ZeroDivisionError:
-            ans.insert(0, "यह हम कैसे बताये?")
+            ans.insert(0, "Domain Error")
         except ValueError:
-            ans.insert(0, "यह हम कैसे बताये?")
+            ans.insert(0, "Domain Error")
         except TypeError:
-            ans.insert(0, "कुछ तो गड़बड़ हैं!")
+            ans.insert(0, "Something is wrong!")
     # Just for keeping track of the 'equation' variable
     print(equation)
 
