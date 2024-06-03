@@ -365,7 +365,7 @@ def cut():
     """Backspace Function"""
     global equation
     global equal
-    global bracket  # For error handling in square-root cutting - Don't know how, but it works.
+    global bracket  # For error handling in square-root cutting
     s = entry.get()
 
     # Condition for Trigonometric Inverses open
