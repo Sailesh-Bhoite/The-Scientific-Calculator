@@ -553,8 +553,8 @@ def exp_press():
 
 # Initiate Window
 win = Tk()
-x = win.winfo_screenwidth()/2 - 150
-y = win.winfo_screenheight()/2 - 100
+x = win.winfo_screenwidth()/2-150
+y = win.winfo_screenheight()/2-150
 win.geometry("608x405+350+20")
 win.resizable(False, False)
 

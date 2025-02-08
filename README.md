@@ -26,4 +26,16 @@ Other Operations:
 3. Power (x^y)
 4. Square root
 
+## Tech Stack
+
+**Language:** Python
+
+**UI module:** Tkinter
+
+**For mathematical calculations:** math
+
 For demo video follow the link: [Video Link](https://www.linkedin.com/posts/sailesh-bhoite_hello-connections-heres-another-mini-activity-7228543221620965376-F_z5?utm_source=share&utm_medium=member_desktop)
+
+## Authors
+
+- [@Sailesh Bhoite](https://github.com/Sailesh-Bhoite)
